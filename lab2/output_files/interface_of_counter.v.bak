@@ -1,0 +1,9 @@
+module interface_of_counter(SW,LEDR);
+
+
+input [6:0]SW;
+output [4:0]LEDR;
+
+ downcounter uut(SW[3:0],SW[4],SW[5],SW[6],LEDR[0],LEDR[4:1]);
+ //downcounter(data,dec,load,clk,zero,out);
+ endmodule

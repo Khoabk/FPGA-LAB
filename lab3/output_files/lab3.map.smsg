@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at keep_high1.v(63): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/lab3/keep_high1.v Line: 63
+Warning (10268): Verilog HDL information at bin_to_bcd2.v(6): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/lab3/bin_to_bcd2.v Line: 6

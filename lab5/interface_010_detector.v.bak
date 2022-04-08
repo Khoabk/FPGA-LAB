@@ -1,0 +1,12 @@
+module interface_010_detector(CLOCK_50,KEY,LEDR);
+input CLOCK_50;
+input [1:0]KEY;
+output [1:0]LEDR;
+
+
+
+
+ zero_one_zero_detector uut(.clk(CLOCK_50), .bits(KEY[1]), .reset(KEY[0]), .detector(LEDR[0]));
+ 
+ 
+ endmodule

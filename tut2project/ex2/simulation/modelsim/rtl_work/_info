@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/tut2project/ex2/simulation/modelsim
+v\4bitadder1 
+Z1 !s110 1590755539
+!i10b 1
+!s100 EFfok[;ZfQj[RnF_KK]mZ0
+I=4ZKZl?Bf3XIai3][V83W0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1588956529
+8C:/intelFPGA_lite/tut2project/ex2/4bitadder1.v
+FC:/intelFPGA_lite/tut2project/ex2/4bitadder1.v
+Z3 L0 20
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1590755538.000000
+!s107 C:/intelFPGA_lite/tut2project/ex2/4bitadder1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/4bitadder1.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/tut2project/ex2
+Z8 tCvgOpt 0
+n@1344bitadder1@040
+vbin_to_7seg
+R1
+!i10b 1
+!s100 aeg^JcPgj=9:@Ml1jCzFL2
+IihM1[JZ_Hd5OL`<EnJ;d?0
+R2
+R0
+w1590552000
+8C:/intelFPGA_lite/tut2project/ex2/bin_to_7seg.v
+FC:/intelFPGA_lite/tut2project/ex2/bin_to_7seg.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1590755539.000000
+!s107 C:/intelFPGA_lite/tut2project/ex2/bin_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/bin_to_7seg.v|
+!i113 1
+R6
+R7
+R8
+vbin_to_bcd
+R1
+!i10b 1
+!s100 dbQTbTaoLR8HW`a@lmN4k3
+I38>d?@6B7DJ?zl60F@ic?1
+R2
+R0
+w1590202201
+8C:/intelFPGA_lite/tut2project/ex2/bin_to_bcd.v
+FC:/intelFPGA_lite/tut2project/ex2/bin_to_bcd.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/tut2project/ex2/bin_to_bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/bin_to_bcd.v|
+!i113 1
+R6
+R7
+R8
+vfourbittestbench
+R1
+!i10b 1
+!s100 KmN^ZZjoazSU0<OI=^azl3
+IoC85OF10>igzJ?9fN=0>b2
+R2
+R0
+w1590755425
+8C:/intelFPGA_lite/tut2project/ex2/fourbittestbench.v
+FC:/intelFPGA_lite/tut2project/ex2/fourbittestbench.v
+L0 2
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/tut2project/ex2/fourbittestbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/fourbittestbench.v|
+!i113 1
+R6
+R7
+R8
+vhalf_adder
+Z10 !s110 1590755538
+!i10b 1
+!s100 1mW:S51H<A<?OU`Nd_<=;0
+I`mdHakZCCk6_zU6DGbePo0
+R2
+R0
+w1588927503
+8C:/intelFPGA_lite/tut2project/ex2/half_adder.v
+FC:/intelFPGA_lite/tut2project/ex2/half_adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/tut2project/ex2/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/half_adder.v|
+!i113 1
+R6
+R7
+R8
+vled7_decoder
+R1
+!i10b 1
+!s100 95cemYbQ8RkV?eAF93dXh2
+InLbiL?[co3fG0b[H@a22^2
+R2
+R0
+w1590553143
+8C:/intelFPGA_lite/tut2project/ex2/led7_decoder.v
+FC:/intelFPGA_lite/tut2project/ex2/led7_decoder.v
+L0 2
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/tut2project/ex2/led7_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/led7_decoder.v|
+!i113 1
+R6
+R7
+R8
+vschematic_fulladder
+R10
+!i10b 1
+!s100 <a2>0ha3TN=`<Qm_4N50g3
+IFffEK;Obh^OPZ60WlJ5QA2
+R2
+R0
+w1588947814
+8C:/intelFPGA_lite/tut2project/ex2/schematic_fulladder.v
+FC:/intelFPGA_lite/tut2project/ex2/schematic_fulladder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/tut2project/ex2/schematic_fulladder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/ex2|C:/intelFPGA_lite/tut2project/ex2/schematic_fulladder.v|
+!i113 1
+R6
+R7
+R8

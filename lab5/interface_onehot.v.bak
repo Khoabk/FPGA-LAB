@@ -1,0 +1,9 @@
+module inerface_onehot()
+reg CLOCK_50;
+reg[1:0]KEY;
+wire [1:0]LEDR'
+
+
+ onehotfsm uut(.clk(CLOCK_50),.w(KEY[1]),.rstn(KEY[0]),.z(LEDR[0]));
+ 
+ endmodule

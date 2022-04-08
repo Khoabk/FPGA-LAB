@@ -1,0 +1,18 @@
+module counter_example(clk,rst,synchronous,assychronous);
+input clk,rst;
+output [3:0] synchronous,asynchronous;
+
+
+always @(posedge clk)
+  begin
+    if(rst) synchronous <=4'b0;
+	 else synchronous <=sychronous+1;
+  end
+  
+always @(posedge clk,posedge rst)
+  begin
+    if(rst) synchronous <=4'b0;
+	 else assynchronous <=assychronous+1;
+  end
+  
+  endmodule

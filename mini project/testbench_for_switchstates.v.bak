@@ -1,0 +1,30 @@
+`timescale 1ns/1ps
+
+module testbench_for_switchstate();
+
+reg clk,switch,add,deduct;
+wire [13:0]hour,minute,second;
+
+initial
+begin
+clk=0;
+switch=0;
+add=0;
+deduct=0;
+#600000
+$stop;
+end
+
+
+
+always #1 clk=~clk;
+
+
+
+
+
+
+ switch_states uut(clk,switch,add,deduct,hour,minute,second);
+ 
+ 
+ endmodule

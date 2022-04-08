@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/lab4/simulation/modelsim
+vbin_to_bcd2
+Z1 !s110 1592220666
+!i10b 1
+!s100 3Eo2IXQ3Z8oGkbbCmH;bG2
+Il8O:0lokOSm3>dH2n;WNn3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591935302
+8C:/intelFPGA_lite/lab3/bin_to_bcd2.v
+FC:/intelFPGA_lite/lab3/bin_to_bcd2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1592220666.000000
+!s107 C:/intelFPGA_lite/lab3/bin_to_bcd2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/bin_to_bcd2.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/lab3
+Z7 tCvgOpt 0
+vbin_to_bcd3
+R1
+!i10b 1
+!s100 f=1GdT81cePG=SX;jj[0S3
+I:DXeV_m0ZSCT=FMHkS3KH1
+R2
+R0
+w1591935234
+8C:/intelFPGA_lite/lab4/bin_to_bcd3.v
+FC:/intelFPGA_lite/lab4/bin_to_bcd3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab4/bin_to_bcd3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab4|C:/intelFPGA_lite/lab4/bin_to_bcd3.v|
+!i113 1
+R5
+Z8 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/lab4
+R7
+vinterface_2
+Z9 !s110 1592220667
+!i10b 1
+!s100 RFKKmaU?0h<^ci>^=1JGg1
+IEoflj[]?3bV?58>BeSAJm1
+R2
+R0
+w1592041093
+8C:/intelFPGA_lite/lab4/interface_2.v
+FC:/intelFPGA_lite/lab4/interface_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1592220667.000000
+!s107 C:/intelFPGA_lite/lab4/interface_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab4|C:/intelFPGA_lite/lab4/interface_2.v|
+!i113 1
+R5
+R8
+R7
+vled7_decoder
+R1
+!i10b 1
+!s100 NCAV8@36QGm<;kbGiR?;?1
+IkboC4?Y9z`4TLBaGIcGn=3
+R2
+R0
+w1591894591
+8C:/intelFPGA_lite/lab3/led7_decoder.v
+FC:/intelFPGA_lite/lab3/led7_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab3/led7_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/led7_decoder.v|
+!i113 1
+R5
+R6
+R7
+vmemory
+R1
+!i10b 1
+!s100 h[am8VoMl798C3<7f656X2
+IReffiXgIGD:<HUWMYGdNS0
+R2
+R0
+w1592040711
+8C:/intelFPGA_lite/lab4/memory.v
+FC:/intelFPGA_lite/lab4/memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab4/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab4|C:/intelFPGA_lite/lab4/memory.v|
+!i113 1
+R5
+R8
+R7
+vtestbench
+R9
+!i10b 1
+!s100 K7BY<RbG7B4<9SfC]EYbR0
+I?>kP0>Y]R`XOC[V3dm8]53
+R2
+R0
+w1592220647
+8C:/intelFPGA_lite/lab4/testbench.v
+FC:/intelFPGA_lite/lab4/testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/lab4/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab4|C:/intelFPGA_lite/lab4/testbench.v|
+!i113 1
+R5
+R8
+R7

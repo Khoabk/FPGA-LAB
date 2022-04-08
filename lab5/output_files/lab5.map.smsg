@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at zero_one_zero_detector.v(23): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/lab5/zero_one_zero_detector.v Line: 23

@@ -1,0 +1,7 @@
+module interface(CLOCK_50,SW,LEDR);
+input CLOCK_50;
+input [12:0]SW;
+output [3:0]LEDR;
+
+alu uut(.clk(CLOCK_50),.rst(SW[11]),.rest(SW[12]),.out(LEDR[3:0]),.opcode(SW[2:0]),.data(SW[6:3]),.accum(SW[3:0]));
+endmodule

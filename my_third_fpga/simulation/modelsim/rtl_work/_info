@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/my_third_fpga/simulation/modelsim
+vmultiplexer2_1
+Z1 !s110 1587878266
+!i10b 1
+!s100 6NkM[=bKLLiEEiQeWTMo_1
+IMemE99;DA@AiAg<YcFJJ10
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1587722309
+8C:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v
+FC:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1587878266.000000
+!s107 C:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/my_third_fpga|C:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/my_third_fpga
+Z7 tCvgOpt 0
+vmultiplexer8_1
+R1
+!i10b 1
+!s100 ]DGBJlSWgXmUXHVg:2?ZO0
+I7QjMN>DHbF9KQZo_BScY`3
+R2
+R0
+w1587874097
+8C:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v
+FC:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/my_third_fpga|C:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v|
+!i113 1
+R5
+R6
+R7
+vMux_test
+!s110 1587878267
+!i10b 1
+!s100 oZ0@^4`Bh8W`c4@GXk@@b0
+IUdW1Jo3m>aGiIeCWU:Hi63
+R2
+R0
+w1587878247
+8C:/intelFPGA_lite/my_third_fpga/Mux_test.v
+FC:/intelFPGA_lite/my_third_fpga/Mux_test.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1587878267.000000
+!s107 C:/intelFPGA_lite/my_third_fpga/Mux_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/my_third_fpga|C:/intelFPGA_lite/my_third_fpga/Mux_test.v|
+!i113 1
+R5
+R6
+R7
+n@mux_test

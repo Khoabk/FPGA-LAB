@@ -1,0 +1,29 @@
+`timescale 1ns/1ns
+module testbench();
+reg clk,rst;
+//wire clk_out;
+wire [3:0] sync,assync;
+  assyn_syn_counter uut(clk,rst,sync,assync);
+   
+	
+	
+
+  initial begin
+   rst=1;
+	clk=0;
+	#5 rst=0;
+  end
+  always #10 clk=~clk;  
+  
+ /* initial begin
+  #50 rst=0;
+  #50 rst=1;
+  #100 rst=0;
+  #50 rst=1;
+  end*/
+  initial  #1000 $stop;
+ 
+  
+  
+  
+  endmodule

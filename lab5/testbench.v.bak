@@ -1,0 +1,20 @@
+module testbench();
+reg clk,reset;
+reg [2:0]letter;
+wire b_out;
+initial
+begin
+clk=0;
+reset=0;
+letter=0;
+end
+
+always #1 clk=~clk;
+
+
+
+
+morse_code_ver2 uut(clk,reset,letter,b_out);
+
+
+endmodule

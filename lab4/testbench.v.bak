@@ -1,0 +1,26 @@
+`timescale 1ns/1ns
+module testbench();
+reg [4:0] address;
+reg [3:0] data;
+reg wren, clock;
+wire q;
+
+initial begin
+address=5'b11111;
+data=4'0101;
+clk=0;
+wren=1;
+#30000000
+$stop;
+
+
+end
+
+always #1 clk=~clk;
+
+ ram32x4copy uut (
+	address,
+	clock,
+	data,
+	wren,
+	q);

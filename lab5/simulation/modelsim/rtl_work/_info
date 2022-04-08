@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/lab5/simulation/modelsim
+vinterface_morse
+Z1 !s110 1632226476
+!i10b 1
+!s100 DHiJkAN:DG1C2ZiY4DDf91
+I9@U]0b8DlPlJfneP1m5zm1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1592902724
+8C:/intelFPGA_lite/lab5/interface_morse.v
+FC:/intelFPGA_lite/lab5/interface_morse.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1632226476.000000
+!s107 C:/intelFPGA_lite/lab5/interface_morse.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab5|C:/intelFPGA_lite/lab5/interface_morse.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/lab5
+Z7 tCvgOpt 0
+vmorse_code_ver2
+R1
+!i10b 1
+!s100 Gd87@oQhZ=LeA:na827d11
+I@]^l=jBQ7ej40bLZQ@Nhi3
+R2
+R0
+w1593620285
+8C:/intelFPGA_lite/lab5/morse_code_ver2.v
+FC:/intelFPGA_lite/lab5/morse_code_ver2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1632226475.000000
+!s107 C:/intelFPGA_lite/lab5/morse_code_ver2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab5|C:/intelFPGA_lite/lab5/morse_code_ver2.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 fJ1;OeiFiT>L991?`LJ1X1
+I^H@J:68j16ASd[NB5XYzg1
+R2
+R0
+w1593619472
+8C:/intelFPGA_lite/lab5/testbench.v
+FC:/intelFPGA_lite/lab5/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab5/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab5|C:/intelFPGA_lite/lab5/testbench.v|
+!i113 1
+R5
+R6
+R7

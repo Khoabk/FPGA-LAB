@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Tue Sep 21 20:25:30 2021
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : lab5
+Top-level Entity Name : interface_morse
+Family : Cyclone IV GX
+Total logic elements : 79
+    Total combinational functions : 75
+    Dedicated logic registers : 55
+Total registers : 55
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

@@ -1,0 +1,74 @@
+|multiplexer8_1
+y << y.DB_MAX_OUTPUT_PORT_TYPE
+y_inverted << y_inverted.DB_MAX_OUTPUT_PORT_TYPE
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+a => a.IN1
+b => b.IN2
+c => c.IN4
+e => y_inverted.IN1
+e => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a2
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a3
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a4
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a5
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a6
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+
+|multiplexer8_1|multiplexer2_1:a7
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+i1 => y.IN0
+i2 => y.IN0
+a => y.IN1
+a => y.IN1
+
+

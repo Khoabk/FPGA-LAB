@@ -1,0 +1,10 @@
+module sillyfunction(y,a,b,c);
+     output y;
+	  input a,b,c;
+	  
+	  
+	  
+	  
+	  assign y= ~b & ~c |a & ~b;
+	  
+ endmodule

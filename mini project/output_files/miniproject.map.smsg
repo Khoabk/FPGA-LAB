@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at clock.v(12): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/mini project/clock.v Line: 12
+Warning (10268): Verilog HDL information at bin_to_bcd3.v(6): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/mini project/output_files/bin_to_bcd3.v Line: 6
+Warning (10268): Verilog HDL information at second_counter2.v(30): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/mini project/output_files/second_counter2.v Line: 30
+Warning (10268): Verilog HDL information at bin_to_bcd4.v(6): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/mini project/bin_to_bcd4.v Line: 6

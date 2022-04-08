@@ -1,0 +1,11 @@
+module bin_to_bcd2(input [3:0]a,output reg [7:0]c);
+reg [7:0]w;
+integer i;
+
+always @ (a) begin  
+  w[7:0]<=a;
+  i=w; 
+c[3:0]<=i%10;
+c[7:4]<=i/10;
+  end
+endmodule

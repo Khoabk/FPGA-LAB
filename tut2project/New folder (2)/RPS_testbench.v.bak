@@ -1,0 +1,30 @@
+`timescale 1ns/1ns
+module RPS_testbench();
+
+
+reg [1:0]a;
+reg [1:0]b;
+reg rst;
+wire win;
+wire player;
+integer k,i,j;
+  RPS uut(win,player,rst,a,b);
+  initial begin
+  for(k=0;k<2;k=k+1)
+    for(i=0;i<4;i=i+1)
+		 for(j=0;j<4;j=j+1) 
+	      begin
+			  rst=k;
+			  a=i;
+			  b=j;
+			  #10;
+			end
+  end
+  
+  
+  
+  
+  
+  
+  
+  endmodule

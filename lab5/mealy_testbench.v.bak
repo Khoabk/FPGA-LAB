@@ -1,0 +1,35 @@
+`timescale 1ns/1ps
+
+module mealy_testbench();
+reg clk,bits,reset;
+wire detect;
+
+initial
+begin
+clk=0;
+bits=0;
+reset=0;
+
+#1000 $stop;
+end 
+
+initial
+begin
+
+#4 bits=1;
+#4 bits=0;
+
+end
+
+always #2 clk=~clk;
+
+
+
+
+
+
+mealy_010_detector uut(clk,bits,reset,detect);
+
+
+
+endmodule

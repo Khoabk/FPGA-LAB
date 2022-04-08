@@ -1,0 +1,23 @@
+`timescale 1ns/1ps
+module testbenchfinal();
+reg[0:3] clk;
+integer i;
+initial 
+begin
+
+for(i=0;i<16;i=i+1)
+begin
+clk=i;
+#5;
+
+
+end
+
+
+end
+
+
+
+ 
+ 
+endmodule

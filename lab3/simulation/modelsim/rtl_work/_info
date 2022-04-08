@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/lab3/simulation/modelsim
+vbin_to_bcd2
+Z1 !s110 1592285202
+!i10b 1
+!s100 3Eo2IXQ3Z8oGkbbCmH;bG2
+Il8O:0lokOSm3>dH2n;WNn3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591935302
+8C:/intelFPGA_lite/lab3/bin_to_bcd2.v
+FC:/intelFPGA_lite/lab3/bin_to_bcd2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1592285202.000000
+!s107 C:/intelFPGA_lite/lab3/bin_to_bcd2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/bin_to_bcd2.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/lab3
+Z7 tCvgOpt 0
+vclock_devider
+R1
+!i10b 1
+!s100 gf4WEeT?BTRokoil_;hJ40
+I@JeA5;RYJgVC73EB=JbZe1
+R2
+R0
+w1591949108
+8C:/intelFPGA_lite/lab3/clock_devider.v
+FC:/intelFPGA_lite/lab3/clock_devider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab3/clock_devider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/clock_devider.v|
+!i113 1
+R5
+R6
+R7
+vclock_divider_testbench
+!s110 1592285203
+!i10b 1
+!s100 H8n16Z70I:L^QeQ9ke_=J2
+IX57L=ih7Y?4>Ql_VWThSN2
+R2
+R0
+w1592285126
+8C:/intelFPGA_lite/lab3/clock_divider_testbench.v
+FC:/intelFPGA_lite/lab3/clock_divider_testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab3/clock_divider_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/clock_divider_testbench.v|
+!i113 1
+R5
+R6
+R7
+vinterface2
+R1
+!i10b 1
+!s100 SoPghd>8IFP>7EHU_@3da0
+IPE[:[JIm=f=ZLZaRfSkGm3
+R2
+R0
+w1592284912
+8C:/intelFPGA_lite/lab3/output_files/interface2.v
+FC:/intelFPGA_lite/lab3/output_files/interface2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab3/output_files/interface2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3/output_files|C:/intelFPGA_lite/lab3/output_files/interface2.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/lab3/output_files
+R7
+vled7_decoder
+R1
+!i10b 1
+!s100 NCAV8@36QGm<;kbGiR?;?1
+IkboC4?Y9z`4TLBaGIcGn=3
+R2
+R0
+w1591894591
+8C:/intelFPGA_lite/lab3/led7_decoder.v
+FC:/intelFPGA_lite/lab3/led7_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/lab3/led7_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/lab3|C:/intelFPGA_lite/lab3/led7_decoder.v|
+!i113 1
+R5
+R6
+R7

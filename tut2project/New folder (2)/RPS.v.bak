@@ -1,0 +1,9 @@
+module RPS(win,player,rst,P0,P1);
+input [1:0] p0;
+input [1:0] p1;
+input rst;
+output win, player;
+assign win=~rst&(p0[1]^p1[1]|p0[0]^p1[1]);
+assign player=~rst&(p0[0]^p1[1]|p0[1]&p1[0]);
+endmodule
+

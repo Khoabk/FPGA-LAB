@@ -1,0 +1,82 @@
+module switch_states(clk,switch,add,deduct,hour,minute,second);
+input clk,switch,add,deduct;
+output [13:0]hour,minute.second;
+
+wire trigger1,trigger2;
+
+reg mode;
+reg [5:0]operator;
+reg [1:0]count;
+
+initial begin
+count=2'b0;
+end
+
+
+
+always @(negedge switch)
+if(count==3)count<=0;
+else count<=count+1;
+
+
+
+always @(count)
+begin
+ mode=1;
+ case (count) 
+    case 2'd0 :   
+	         begin
+	           mode=0;
+				  operator=6'b111111;
+				  
+				 end
+	 
+	 
+    case 2'd1  :
+	         begin
+				  operator[5:2]=4'b1111;
+				  operator[1:0]={deduct,add};
+				end
+	 
+	 
+    case  2'd2 :  
+	         begin
+				  operator[3:2]={deduct,add};
+				  {operator[5],operator[4],operator[1],operator[0]}=4'b1111;
+				end
+			  
+			  
+			  
+	
+    case  2'd3 : 
+            begin
+				  operator[5:4]={deduct,add};
+				  {operator[3],operator[2],operator[1],operator[0]}=4'b1111;
+				end
+	 
+                    
+                  
+    default    :  
+	       begin 
+			     mode=0;
+				  operator=6'b111111;
+         	end
+			 
+			 
+  endcase
+
+  
+end
+
+
+
+
+
+
+seccond_counter uut1(.clk(clk),.switch(mode),.add(operator[0]),.deduct(operator[1]),.seg(second),.trigger(trigger1));
+
+
+minute_counter uut2(.clk(clk),.second(trigger1),.switch(mode),.add(operator[2]),.deduct(operator[3]),.seg(minute),.trigger(trigger2));
+
+
+ hour_counter uut3(.clk(clk),.minute(trigger2),.switch(mode),.add(operator[4]),.deduct(operator[5]),.seg(hour));

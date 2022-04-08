@@ -1,0 +1,26 @@
+|topinter
+LEDR[0] << RPS:uut.port0
+LEDR[1] << RPS:uut.port1
+SW[0] => ~NO_FANOUT~
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+
+
+|topinter|RPS:uut
+win <= win.DB_MAX_OUTPUT_PORT_TYPE
+player <= player.DB_MAX_OUTPUT_PORT_TYPE
+rst => win.IN1
+rst => player.IN1
+a[0] => win.IN0
+a[0] => player.IN0
+a[1] => win.IN0
+a[1] => player.IN0
+b[0] => win.IN1
+b[0] => player.IN1
+b[1] => win.IN1
+b[1] => player.IN1
+
+

@@ -1,0 +1,7 @@
+module downcounter(data,dec,clk,out);
+input [3:0]data; input clk,dec;
+output[3:0]out;
+initial out=data;
+always @(posedge clk)
+  if(dec&&out) out=out-1;
+  endmodule

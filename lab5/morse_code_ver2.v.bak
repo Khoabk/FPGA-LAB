@@ -1,0 +1,93 @@
+module morse_code_ver2(clk,reset,letter,b_out);
+input clk,reset;
+input [2:0]letter;
+output b_out;
+reg [11:0]data_in;
+reg state,next_state,hzout;
+reg [24:0]count;
+
+
+initial
+begin
+count=0;
+data_in=0;
+state=0;
+next_state=0;
+end
+
+
+
+
+parameter A = 12'b010011000000, A1=3'b0, //state encoding
+B = 12'b001101010100,           B1=3'b001,
+C = 12'b001101001101,           C1=3'b010,
+D = 12'b001101010000,           D1=3'b011,
+E = 12'b010000000000,           E1=3'b100,
+F = 12'b010100110100,           F1=3'b101,
+G = 12'b001100110100,           G1=3'b110,
+H = 12'b010101010000,           H1=3'b111;
+
+
+
+
+always @(letter)
+ if(data_in==0)
+     case(letter)
+	   A1: data_in=A;
+		B1: data_in=B;
+	   C1: data_in=C;
+		D1: data_in=D;
+	   E1: data_in=E;
+		F1: data_in=F;
+	   G1: data_in=G;
+		H1: data_in=H;
+		default : data_in=0;
+		endcase
+		  
+	  
+	     
+
+
+
+
+
+
+
+
+always @(posedge clk)
+begin
+  if(count==0)count<=24999999;
+   else count<=count+1;
+	
+	hzout<=(count>12499999)?1:0;
+  
+  
+ end
+ 
+ 
+ 
+ 
+ always @(posedge hzout,negedge reset)
+ if(reset==0)state<=0; else state<=next_state;
+ 
+ 
+ 
+ always @(state)
+  begin
+  b_out=0;
+  next_state=data_in[11];
+  data_in=data_in<<1;
+  if(state==1)
+   b_out=1;
+  
+  end
+  
+  
+  endmodule
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,39 @@
+module keep_high(clk,zero_or_one,start,reset,numbit,a_or_b,stop)
+input clk,reset; input [3:0] zero_or_one;
+input [2:0] numbit; reg [7:0] count=0;
+output a_or_b,stop;
+integer i=0,k=0;
+
+assign a_or_b =(k)?1:0;
+
+
+always @(negedge count)
+i<=i+1;
+
+
+always @(posedge clk,negedge reset)
+begin
+if(!reset)count<=0;
+else
+begin
+    case(zero_or_one[i])
+	    3'd1: if(count< 99)begin  k<=1; count<=count+1; end else count<=0;
+		 
+		 3'd0: if(count< 49)begin  k<=0; count<=count+1; end else count<=0;
+	 
+	   /* 3'd0:out<=accum+data;
+		 3'd1:out<=accum-data;
+		 3'd2:out<=accum & data;
+		 3'd3:out<=accum |data;
+		 3'd4:out<= accum^data;
+		 3'd5:out<=~accum;
+		 3'd6:out<=data;
+      default  : out <=accum; */  
+	endcase
+	
+	
+	
+
+end
+end
+endmodule

@@ -1,0 +1,5 @@
+module top_inter(SW,HEX0);
+input [4:0] SW;
+output [6:0]HEX0;
+led7_decoder(SW[0],SW[4:1],HEX0);
+endmodule

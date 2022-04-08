@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at downcounter.v(6): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/lab2/downcounter.v Line: 6

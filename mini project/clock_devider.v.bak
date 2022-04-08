@@ -1,0 +1,20 @@
+module clock_devider(clk,hzout);
+input clk;   
+output  hzout;    reg[27:0] count=0;
+   
+
+
+always @(posedge clk)
+begin
+  
+    if(count>49999999)count<=0;
+	 else count <=count +1;
+	
+end
+
+
+assign hzout=(count>24999999)?1:0;
+endmodule
+  
+  
+  

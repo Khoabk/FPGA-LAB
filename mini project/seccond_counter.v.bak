@@ -1,0 +1,26 @@
+module seccond_counter(clk,reset,up_or_down,add,deduct,seg);
+input clk,reset,up_or_down,add,deduct;
+output [13:0]seg;
+reg [5:0]seccond=0;
+
+
+
+always @(posedge clk,negedge reset,negedge add,negedge deduct)
+begin
+if(!reset)seccond=0;
+
+else if(!add)if(seccond==59)seccond=0;else seccond=seccond+1;
+
+
+else if(!deduct)if(seccond==0)seccond=59;else seccond=seccond-1;
+
+
+else if(up_or_down)if(seccond==59)seccond=0;else seccond=seccond+1;
+
+else if(seccond==0)seccond=59;else seccond=seccond-1;
+
+
+end
+
+
+endmodule

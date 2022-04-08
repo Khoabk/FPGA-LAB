@@ -1,0 +1,86 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do multiplexer8_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/my_third_fpga {C:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:46 on Apr 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/my_third_fpga" C:/intelFPGA_lite/my_third_fpga/multiplexer2_1.v 
+# -- Compiling module multiplexer2_1
+# 
+# Top level modules:
+# 	multiplexer2_1
+# End time: 12:17:46 on Apr 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/my_third_fpga {C:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:46 on Apr 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/my_third_fpga" C:/intelFPGA_lite/my_third_fpga/multiplexer8_1.v 
+# -- Compiling module multiplexer8_1
+# 
+# Top level modules:
+# 	multiplexer8_1
+# End time: 12:17:46 on Apr 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/my_third_fpga {C:/intelFPGA_lite/my_third_fpga/Mux_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:17:47 on Apr 26,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/my_third_fpga" C:/intelFPGA_lite/my_third_fpga/Mux_test.v 
+# -- Compiling module Mux_test
+# 
+# Top level modules:
+# 	Mux_test
+# End time: 12:17:47 on Apr 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  Mux_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" Mux_test 
+# Start time: 12:17:47 on Apr 26,2020
+# Loading work.Mux_test
+# Loading work.multiplexer8_1
+# Loading work.multiplexer2_1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=1, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=1, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=1, i[0]=0, a=0, b=0, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=1, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=1, i[1]=0, i[0]=0, a=0, b=1, c=0, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=1, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=1, c=1, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=1, i[2]=0, i[1]=0, i[0]=0, a=0, b=1, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=1, i[2]=0, i[1]=0, i[0]=0, a=0, b=1, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=1, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=0, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=0, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=1, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=1, e=0, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=1, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=0, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=1, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=0, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=1, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=0, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=0, e=0, y=0,y_inverted=1
+# i[7]=1, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=1, e=0, y=1,y_inverted=0
+# i[7]=1, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=1, e=0, y=1,y_inverted=0
+# i[7]=1, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=1, b=1, c=1, e=0, y=1,y_inverted=0
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=1, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=1, y=0,y_inverted=1
+# i[7]=0, i[6]=0, i[5]=0, i[4]=0, i[3]=0, i[2]=0, i[1]=0, i[0]=0, a=0, b=0, c=0, e=1, y=0,y_inverted=1
+# End time: 12:20:24 on Apr 26,2020, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 0

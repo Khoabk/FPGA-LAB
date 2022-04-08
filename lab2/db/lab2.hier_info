@@ -1,0 +1,21 @@
+|downcounter
+data[0] => out.DATAB
+data[1] => out.DATAB
+data[2] => out.DATAB
+data[3] => out.DATAB
+dec => always0.IN1
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+zero << WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] << out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] << out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] << out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] << out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

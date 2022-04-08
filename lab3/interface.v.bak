@@ -1,0 +1,7 @@
+module interface (CLOCK_50,KEY1,KEY0,SW,LEDR)
+
+input CLOCK_50,KEY1,KEY0;
+input [2:0]SW;
+output [1:0]LEDR;
+ keep_high1 uut(CLOCK_50,KEY1,KEY0,SW,LEDR[0]);
+endmodule

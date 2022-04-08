@@ -1,0 +1,9 @@
+module interface2(CLOCK2_50,SW,LEDR);
+input CLOCK2_50,
+input [4:0] SW;
+output [1:0]LEDR;
+
+
+
+ clock_devider uut(CLOCK2_50,SW[4],SW[3:0],LEDR[0]);
+ endmodule

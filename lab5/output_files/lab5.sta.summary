@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -2.134
+TNS   : -34.345
+
+Type  : Slow 1200mV 85C Model Setup 'morse_code_ver2:uut|hzout'
+Slack : -1.743
+TNS   : -22.722
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'morse_code_ver2:uut|hzout'
+Slack : 0.616
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'morse_code_ver2:uut|hzout'
+Slack : -1.500
+TNS   : -25.500
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.782
+TNS   : -28.017
+
+Type  : Slow 1200mV 0C Model Setup 'morse_code_ver2:uut|hzout'
+Slack : -1.520
+TNS   : -19.408
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'morse_code_ver2:uut|hzout'
+Slack : 0.562
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'morse_code_ver2:uut|hzout'
+Slack : -1.500
+TNS   : -25.500
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.562
+TNS   : -5.146
+
+Type  : Fast 1200mV 0C Model Setup 'morse_code_ver2:uut|hzout'
+Slack : -0.410
+TNS   : -4.244
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'morse_code_ver2:uut|hzout'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -29.446
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -17.083
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'morse_code_ver2:uut|hzout'
+Slack : -1.000
+TNS   : -17.000
+
+------------------------------------------------------------

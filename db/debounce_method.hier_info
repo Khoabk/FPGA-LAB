@@ -1,0 +1,7 @@
+|debounce_method
+clk => D2.CLK
+clk => D1.CLK
+signal_in => D1.DATAIN
+signal_out <= signal_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

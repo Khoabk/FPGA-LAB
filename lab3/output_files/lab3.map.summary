@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Tue Jun 16 12:51:33 2020
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : lab3
+Top-level Entity Name : interface
+Family : Cyclone IV GX
+Total logic elements : 127
+    Total combinational functions : 126
+    Dedicated logic registers : 62
+Total registers : 62
+Total pins : 41
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

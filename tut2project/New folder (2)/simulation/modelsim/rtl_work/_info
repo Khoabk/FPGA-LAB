@@ -1,0 +1,188 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/tut2project/New folder (2)/simulation/modelsim
+vadder_4bit
+Z1 !s110 1589173203
+!i10b 1
+!s100 FN9L^QPilTcPaK9bERi;n3
+II6]f9TTeUd3@DW5E3U<?63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1589021168
+8C:/intelFPGA_lite/tut2project/New folder (2)/adder_4bit.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/adder_4bit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1589173203.000000
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/adder_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/adder_4bit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/intelFPGA_lite/tut2project/New folder (2)}
+Z7 tCvgOpt 0
+vblock_counter2
+R1
+!i10b 1
+!s100 GS<0^0i_baflgPZQ1AVSm0
+I38RHT1?eThY86TAa8k^[;1
+R2
+R0
+w1589124818
+8C:/intelFPGA_lite/tut2project/New folder (2)/block_counter2.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/block_counter2.v
+L0 27
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/block_counter2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/block_counter2.v|
+!i113 1
+R5
+R6
+R7
+vclock_devider
+R1
+!i10b 1
+!s100 j5;1]8^[[CF4Q?mnZmZ=C3
+IZfY]3X2nLZCMgb4[V0i1L0
+R2
+R0
+w1589021375
+8C:/intelFPGA_lite/tut2project/New folder (2)/clock_devider.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/clock_devider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/clock_devider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/clock_devider.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 VkXAePL][jOI3F?RJ^BA@3
+I=?7n;<D[ho^bDe0<1@<120
+R2
+R0
+w1589021027
+8C:/intelFPGA_lite/tut2project/New folder (2)/full_adder.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vhalf_adder
+R1
+!i10b 1
+!s100 3^]GYTM8hWm4F66@i2BF81
+I`GigKHK7aChcF=1cmfVDo0
+R2
+R0
+w1589020981
+8C:/intelFPGA_lite/tut2project/New folder (2)/half_adder.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/half_adder.v|
+!i113 1
+R5
+R6
+R7
+vmod10_counter
+R1
+!i10b 1
+!s100 WkifP9KRgHM9N8Fmh;;h32
+IdEd`DR[Cd4L?O[IR^?=f33
+R2
+R0
+w1589020722
+8C:/intelFPGA_lite/tut2project/New folder (2)/mod10_counter.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/mod10_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/mod10_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/mod10_counter.v|
+!i113 1
+R5
+R6
+R7
+vRPS
+R1
+!i10b 1
+!s100 7fZ86j78]]V[cZ@`njn[50
+IRH;Zl9nKBcgFilO0NHlk?1
+R2
+R0
+w1589115008
+8C:/intelFPGA_lite/tut2project/New folder (2)/RPS.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/RPS.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589173202.000000
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/RPS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/RPS.v|
+!i113 1
+R5
+R6
+R7
+n@r@p@s
+vRPS_testbench
+R1
+!i10b 1
+!s100 2XSNI;>a=:3QReDXVRK^91
+IZz19;9IK]Y4:0hk<O[U193
+R2
+R0
+w1589173191
+8C:/intelFPGA_lite/tut2project/New folder (2)/RPS_testbench.v
+FC:/intelFPGA_lite/tut2project/New folder (2)/RPS_testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/tut2project/New folder (2)/RPS_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/tut2project/New folder (2)|C:/intelFPGA_lite/tut2project/New folder (2)/RPS_testbench.v|
+!i113 1
+R5
+R6
+R7
+n@r@p@s_testbench

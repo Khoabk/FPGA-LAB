@@ -1,0 +1,13 @@
+module interface_2(CLOCK_50,KEY,SW,HEX1,HEX0);
+
+input CLOCK_50,[1:0]KEY,[1:0]SW;
+output [6:0]HEX0,HEX1;
+
+
+
+seccond_counter uut(.clk(CLOCK_50),.reset(KEY[0]),.up_or_down(SW[0]),.add(KEY[1]),.deduct(KEY[2]),.seg({HEX1,HEX0}));
+//          clock_50,KEY0,SW[0],KEY1,KEY2,{HEX1,HEX0}
+               
+
+
+endmodule

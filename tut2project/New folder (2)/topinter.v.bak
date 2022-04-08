@@ -1,0 +1,8 @@
+module topinter(LEDR,SW);
+input [5:0] SW;
+output [1:0]LEDR; 
+ 
+ 
+ RPS uut(win,player,rst,a,b);
+ 
+ endmodule
